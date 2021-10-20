@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>v1.1.2 on Longhorn Manual Test Cases</title>
-    <link>https://longhorn.github.io/longhorn-tests/manual/release-specific/v1.1.2/</link>
+    <link>https://khushboo-rancher/test-longhorn-site/manual/release-specific/v1.1.2/</link>
     <description>Recent content in v1.1.2 on Longhorn Manual Test Cases</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://longhorn.github.io/longhorn-tests/manual/release-specific/v1.1.2/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://khushboo-rancher/test-longhorn-site/manual/release-specific/v1.1.2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test CronJob For Volumes That Are Detached For A Long Time</title>
-      <link>https://longhorn.github.io/longhorn-tests/manual/release-specific/v1.1.2/delete-cronjob-for-detached-volumes/</link>
+      <link>https://khushboo-rancher/test-longhorn-site/manual/release-specific/v1.1.2/delete-cronjob-for-detached-volumes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://longhorn.github.io/longhorn-tests/manual/release-specific/v1.1.2/delete-cronjob-for-detached-volumes/</guid>
+      <guid>https://khushboo-rancher/test-longhorn-site/manual/release-specific/v1.1.2/delete-cronjob-for-detached-volumes/</guid>
       <description>Related issue https://github.com/longhorn/longhorn/issues/2513
 Steps  Make sure the setting Allow Recurring Job While Volume Is Detached is disabled Create a volume. Attach to a node. Create a recurring backup job that run every minute. Wait for the cronjob to be scheduled a few times. Detach the volume. Verify that the CronJob get deleted. Wait 2 hours (&amp;gt; 100 mins). Attach the volume to a node. Verify that the CronJob get created.</description>
     </item>
     
     <item>
       <title>Test Frontend Web-socket Data Transfer When Resource Not Updated</title>
-      <link>https://longhorn.github.io/longhorn-tests/manual/release-specific/v1.1.2/full-ws-data-tranfer-when-no-updates/</link>
+      <link>https://khushboo-rancher/test-longhorn-site/manual/release-specific/v1.1.2/full-ws-data-tranfer-when-no-updates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://longhorn.github.io/longhorn-tests/manual/release-specific/v1.1.2/full-ws-data-tranfer-when-no-updates/</guid>
+      <guid>https://khushboo-rancher/test-longhorn-site/manual/release-specific/v1.1.2/full-ws-data-tranfer-when-no-updates/</guid>
       <description>Related issue https://github.com/longhorn/longhorn-manager/pull/918 https://github.com/longhorn/longhorn/issues/2646 https://github.com/longhorn/longhorn/issues/2591
 Test Data Send Over Web-socket When No Resource Updated Given 1 PVC/Pod created. And the Pod is not writing to the mounted volume.
 When monitor network traffic with browser inspect tool.
@@ -31,10 +31,10 @@ Test Data Send Over Web-socket Resource Updated Given monitor network traffic wi
     
     <item>
       <title>Test Instance Manager Streaming Connection Recovery</title>
-      <link>https://longhorn.github.io/longhorn-tests/manual/release-specific/v1.1.2/instance-manager-streaming-connection-recovery/</link>
+      <link>https://khushboo-rancher/test-longhorn-site/manual/release-specific/v1.1.2/instance-manager-streaming-connection-recovery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://longhorn.github.io/longhorn-tests/manual/release-specific/v1.1.2/instance-manager-streaming-connection-recovery/</guid>
+      <guid>https://khushboo-rancher/test-longhorn-site/manual/release-specific/v1.1.2/instance-manager-streaming-connection-recovery/</guid>
       <description>Related issue https://github.com/longhorn/longhorn/issues/2561
 Test Step Given A cluster with Longhorn
 And create a volume and attach it to a pod.

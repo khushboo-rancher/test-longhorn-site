@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>End-to-end test cases on Longhorn Manual Test Cases</title>
-    <link>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/</link>
+    <link>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/</link>
     <description>Recent content in End-to-end test cases on Longhorn Manual Test Cases</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Deployment of Longhorn</title>
-      <link>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/deployment/</link>
+      <link>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/deployment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/deployment/</guid>
+      <guid>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/deployment/</guid>
       <description>Installation Longhorn v1.1.2 and above - Support Kubernetes 1.18+
 Longhorn v1.0.0 to v1.1.1 - Support Kubernetes 1.14+. Default 1.16+
   Install using Rancher Apps &amp;amp; MarketPlace App (Default)
@@ -23,10 +23,10 @@ Uninstallation Make sure all the CRDs and other resources are cleaned up, follow
     
     <item>
       <title>2. UI</title>
-      <link>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/ui/</link>
+      <link>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/ui/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/ui/</guid>
+      <guid>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/ui/</guid>
       <description>Accessibility of Longhorn UI    # Test Case Test Instructions     1. Access Longhorn UI using rancher proxy 1. Create a cluster (3 worker nodes and 1 etcd/control plane) in rancher, Go to the default project.
 2. Go to App, Click the launch app.
 3. Select longhorn.
@@ -36,10 +36,10 @@ Uninstallation Make sure all the CRDs and other resources are cleaned up, follow
     
     <item>
       <title>3. Volume</title>
-      <link>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/volume/</link>
+      <link>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/volume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/volume/</guid>
+      <guid>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/volume/</guid>
       <description>Test cases for Volume    # Test Case Test Instructions Expected Results     1 Check volume Details Prerequisite:
 * Longhorn Nodes has node tags
 * Node Disks has disk tags
@@ -52,10 +52,10 @@ Uninstallation Make sure all the CRDs and other resources are cleaned up, follow
     
     <item>
       <title>4. High Availability</title>
-      <link>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/high-availability/</link>
+      <link>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/high-availability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/high-availability/</guid>
+      <guid>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/high-availability/</guid>
       <description>Automation Tests    # Test Name Description Tags     1 test_engine_image_daemonset_restart Test restarting engine image daemonset
 1. Get the default engine image
 2. Create a volume and attach to the current node
@@ -67,10 +67,10 @@ Uninstallation Make sure all the CRDs and other resources are cleaned up, follow
     
     <item>
       <title>5. Kubernetes</title>
-      <link>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/kubernetes/</link>
+      <link>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/kubernetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/kubernetes/</guid>
+      <guid>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/kubernetes/</guid>
       <description>Dynamic provisioning with StorageClass   Can create and use volume using StorageClass
   Can create a new StorageClass use new parameters and it will take effect on the volume created by the storage class.
   If the PV reclaim policy is delete, once PVC and PV are deleted, Longhorn volume should be deleted.
@@ -79,10 +79,10 @@ Uninstallation Make sure all the CRDs and other resources are cleaned up, follow
     
     <item>
       <title>6. Backup</title>
-      <link>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/backup/</link>
+      <link>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/backup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/backup/</guid>
+      <guid>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/backup/</guid>
       <description>Automation Tests    # Test name Description tag     1 test_backup Test basic backup
 Setup:
 1. Create a volume and attach to the current node
@@ -95,10 +95,10 @@ Steps:
     
     <item>
       <title>7. Node</title>
-      <link>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/node/</link>
+      <link>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/node/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/node/</guid>
+      <guid>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/node/</guid>
       <description>UI specific test cases    # Test Case Test Instructions Expected Results     1 Storage details * Prerequisites
 * Longhorn Installed
 1. Verify the allocated/used storage show the right data in node details page.
@@ -107,10 +107,10 @@ Steps:
     
     <item>
       <title>8. Scheduling</title>
-      <link>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/scheduling/</link>
+      <link>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/scheduling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/scheduling/</guid>
+      <guid>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/scheduling/</guid>
       <description>Manual Test    Test name Prerequisite Expectation     EKS across zone scheduling Prerequisite:
 * EKS Cluster with 3 nodes across two AWS zones (zone#1, zone#2)
 1. Create a volume with 2 replicas, and attach it to a node.
@@ -121,10 +121,10 @@ Steps:
     
     <item>
       <title>9. Upgrade</title>
-      <link>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/upgrade/</link>
+      <link>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/upgrade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://longhorn.github.io/longhorn-tests/manual/end-to-end-test-cases/upgrade/</guid>
+      <guid>https://khushboo-rancher/test-longhorn-site/manual/end-to-end-test-cases/upgrade/</guid>
       <description>Automation tests
    # Test name Description Tags     1 test_upgrade Test Longhorn upgrade
 1. Find the upgrade image tag
